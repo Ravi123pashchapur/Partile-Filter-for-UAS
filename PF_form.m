@@ -1,6 +1,5 @@
 %% Author : Ravi Ashok Pashchapur
-%% Date: 08 /07 / 2019
-%% license: MIT
+
 
 function [x_state,P_cov,K_EKF_gain,diff,Z_hat]=PF_form(xy1,xy2,h_0,alpha,x_state_ini,P_cov_ini,F,G,Q,R)
 
